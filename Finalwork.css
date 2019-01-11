@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS reset*/
+body{
+	width: 1024px;
+	margin: 0 auto;
+}
+/*螢幕同寬*/
+h2{
+    font-size:18px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:Microsoft JhengHei;
+    padding: 20px 0;
+    font-weight:bold;
+}
+/*對差異特設計*/
+.clearfix{
+  clear:both;
+}
+/*清除float*/
+
+.Community li{
+	list-style:none;
+	float:right;
+	margin-right: 5px;
+	font-size: 10px;
+	padding:0 5px;
+}
+
+.top1{
+	color: #96FFFF;	
+}
+.top2{
+	color: #0808FF;	
+}
+/*社群設計*/
+
+.header{
+	height: 66px;
+}
+.header img{
+	float: left;
+}
+
+.header ul{
+	float: right;
+}
+.header li{
+	list-style:none;
+	float: left;
+	color: #00DD77;
+	padding:10px 30px;
+	width: 65px;
+	height:43px;
+	line-height:43px;
+	font-size: 16px;
+	
+}
+.header li:hover{
+	border-bottom:1px solid #00DD77;
+}
+/*表頭設計*/
+
+.banner{
+	background-image: url('../image base/背圖A_02.png');
+	height: 346px;
+	position: relative;
+}
+.banner_sup{
+	opacity:0.25;
+	background-color: gray;
+	width: 100%;
+	height:40%;
+	top:25%;
+	Z-index:3;
+	position: absolute;
+}
+/*banner 透光設計*/
+.banner_text{	
+	text-align: left;
+	font-size: 24px;
+	color: white;
+	position: absolute;
+	top:33%;
+}
+/*banner文字*/
+.context_top{
+	margin:20px 0;
+	background-color: black;
+	height: auto;
+
+}
+.tutor{
+	width:30%;
+	height: 350px;
+	float: left;
+	background-repeat: no-repeat;
+	background-color: white;
+	box-shadow: 0px 0px 50px gray;
+	margin: 0 10px;
+	padding:20px 5px;
+	border: 1px white solid;
+}
+/*含陰影效果*/
+.tutor img{
+	margin:0 25%;
+}
+/*置中*/
+.tutor .tu1{
+	font-weight:bold;
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+/*課程名稱*/
+.tutor p,li{
+	padding: 0 20px;
+	font-size: 13px;
+	font-family:Microsoft JhengHei;
+	line-height:1.5;
+	text-align: left;
+	list-style:disc;
+	list-style-position: inside; 
+}
+/*課程內容*/
+
+.contextT{
+    width: 1000px;
+    text-align: left;
+    margin: 0 auto;
+}
+.contextT th{
+    font-weight:bold;
+    padding:10px 0;
+    background-color:#f0f0f0;
+    border-top: 1px #d0d0d0 solid;
+    border-bottom: 1px #d0d0d0 solid;
+    font-family:Microsoft JhengHei;
+    
+}
+.contextT td{
+    border-top: 1px black solid;
+    border-bottom: 1px #d0d0d0 solid;
+    padding: 10px 0;
+    font-family:DFKai-sb;
+}
+.best{
+    color: #00AAAA;
+}
+/*表格設計*/
+
+.contextF{
+    margin: 0 auto;
+    height: auto;
+    background:linear-gradient(rgba(6, 44, 35, 0.767),rgba(0, 197, 154, 0.794));
+    
+}
+/*選單與背景漸層*/
+.F1{
+    margin: 40px auto; 
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family:Microsoft JhengHei;
+    
+}
+
+.F2 textarea{
+    width: 400px;
+    height: 200px;
+    margin: 0px 50px 10px 30px;
+    float: left;
+}
+/*文字填寫*/
+.F2_Fill{
+    color: white;
+    font-size: 14px;
+    float: left;
+}
+.F2_Fill input{
+    width: 450px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+.F2_Fill .Btn{
+    margin-left: 375px;
+    width: 75px;
+    height: 30px;
+    background-color: aquamarine;
+}
+/*問卷設計*/
+
+
+.footer{
+    margin-top: 10px;
+    background-color: white;
+    position: relative;
+    height: auto;
+}
+.footer_logo{
+    float: left;
+    background-image: url('../image base/六角圖標P24-2.png');
+    width: 220px;
+    height: 60px;
+    
+}
+.connect{ 
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.phone{
+    color: red;
+}
+/*表尾設計*/
